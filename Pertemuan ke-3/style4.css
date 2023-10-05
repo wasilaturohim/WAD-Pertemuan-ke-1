@@ -1,0 +1,12 @@
+body{
+    background-color: coral;
+    background-image: url(https://www.duniailkom.com/wp-content/uploads/2015/11/HTML-featured-duniailkom.png) ;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+}
+
+h1{
+    font-family: 'Times New Roman';
+    color: beige;
+}
