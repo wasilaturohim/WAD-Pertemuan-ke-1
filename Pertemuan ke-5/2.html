@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Kelas SI-45-05 </title>
+    </head>
+    <body>
+        <h1> JavaScript can change images </h1>
+    <img id="myImage" onclick="changeImage()" src="https://telkomuniversity.ac.id/wp-content/uploads/2019/03/GEDUNG-BANGKIT.jpg" width="" height="450">
+    <p> click the image to change image</p>
+    <script>
+        function changeImage(){
+            var image = document.getElementById('myImage');
+            if (image.src.match("bulbon")) {
+                image.src = "https://telkomuniversity.ac.id/wp-content/uploads/2019/03/GEDUNG-BANGKIT.jpg"; 
+            } else {
+                image.src = "https://www.balebandung.com/wp-content/uploads/2021/09/tel-u.jpg";
+            }
+            }
+    </script>
+    </body>
+</html>
